@@ -1,0 +1,25 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "python.pipenvPath": "venv/bin/python",
+  "python.analysis.typeshedPaths": [".vscode/typings"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.extraPaths": [".vscode/typings"],
+  "python.analysis.stubPath": ".vscode/typings",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json][jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": ".vscode/.prettierrc.json"
+}
