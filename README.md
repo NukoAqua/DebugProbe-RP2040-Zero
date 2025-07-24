@@ -18,12 +18,29 @@
 
 ## Wiring
 
+### RP2040-Zero Pin Diagram
+
+| Func. |  Pin |  -  | Pin | Func.     |
+| ----: | ---: | :-: | :-- | :-------- |
+|       |   5V |     | GP0 |           |
+|       |  GND |     | GP1 |           |
+|       |  3V3 |     | GP2 | SWD SWDIO |
+|       | GP29 |     | GP3 | SWD SWCLK |
+|       | GP28 |     | GP4 | UART TXD  |
+|       | GP27 |     | GP5 | UART RXD  |
+|       | GP26 |     | GP6 |           |
+|       | GP15 |     | GP7 |           |
+|       | GP14 |     | GP8 |           |
+
+GP9-13 are ommited above diagram.
+
 ### UART
 
 | DebugProbe | PIN |  -  | PIN | Device |
 | ---------: | --: | :-: | :-- | :----- |
 |        TXD | GP4 |     | GP1 | RXD    |
 |        RXD | GP5 |     | GP0 | TXD    |
+|        GBD | GND |     | GND | GND    |
 
 ### SWD
 
